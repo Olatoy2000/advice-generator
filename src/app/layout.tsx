@@ -9,6 +9,15 @@ const manrope = Manrope({ subsets: ["latin"], variable: "--manrope" });
 export const metadata: Metadata = {
   title: "Advice generator",
   description: "Created by Olatoy consult",
+  icons: {
+    icon: [
+      {
+        media: "(prefer)",
+        url: "/olatoydev.jpg",
+        href: "/olatoydev.jpg",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
